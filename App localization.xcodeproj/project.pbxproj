@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491A5DC32A6FC6480005539D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491A5DBE2A6FC52D0005539D /* Localizable.strings */; };
 		49BA866E2A6E7D93005AF24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA866D2A6E7D93005AF24E /* AppDelegate.swift */; };
 		49BA86702A6E7D93005AF24E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA866F2A6E7D93005AF24E /* SceneDelegate.swift */; };
 		49BA86722A6E7D93005AF24E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA86712A6E7D93005AF24E /* ViewController.swift */; };
@@ -16,7 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		49BA866A2A6E7D93005AF24E /* App localizatio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App localizatio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491A5DB72A6FC0EC0005539D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		491A5DB82A6FC12D0005539D /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		491A5DB92A6FC12D0005539D /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		491A5DBD2A6FC52D0005539D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		491A5DBF2A6FC5300005539D /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		491A5DC02A6FC57D0005539D /* gu-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "gu-IN"; path = "gu-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		491A5DC12A6FC57D0005539D /* gu-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "gu-IN"; path = "gu-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		491A5DC22A6FC57D0005539D /* gu-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "gu-IN"; path = "gu-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		49BA866A2A6E7D93005AF24E /* App localization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App localization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BA866D2A6E7D93005AF24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49BA866F2A6E7D93005AF24E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		49BA86712A6E7D93005AF24E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +57,7 @@
 		49BA866B2A6E7D93005AF24E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49BA866A2A6E7D93005AF24E /* App localizatio.app */,
+				49BA866A2A6E7D93005AF24E /* App localization.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +69,7 @@
 				49BA866F2A6E7D93005AF24E /* SceneDelegate.swift */,
 				49BA86712A6E7D93005AF24E /* ViewController.swift */,
 				49BA86732A6E7D93005AF24E /* Main.storyboard */,
+				491A5DBE2A6FC52D0005539D /* Localizable.strings */,
 				49BA86762A6E7D94005AF24E /* Assets.xcassets */,
 				49BA86782A6E7D94005AF24E /* LaunchScreen.storyboard */,
 				49BA867B2A6E7D94005AF24E /* Info.plist */,
@@ -70,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49BA86692A6E7D93005AF24E /* App localizatio */ = {
+		49BA86692A6E7D93005AF24E /* App localization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49BA867E2A6E7D94005AF24E /* Build configuration list for PBXNativeTarget "App localizatio" */;
+			buildConfigurationList = 49BA867E2A6E7D94005AF24E /* Build configuration list for PBXNativeTarget "App localization" */;
 			buildPhases = (
 				49BA86662A6E7D93005AF24E /* Sources */,
 				49BA86672A6E7D93005AF24E /* Frameworks */,
@@ -82,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = "App localizatio";
+			name = "App localization";
 			productName = "App localizatio";
-			productReference = 49BA866A2A6E7D93005AF24E /* App localizatio.app */;
+			productReference = 49BA866A2A6E7D93005AF24E /* App localization.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,20 +112,22 @@
 					};
 				};
 			};
-			buildConfigurationList = 49BA86652A6E7D93005AF24E /* Build configuration list for PBXProject "App localizatio" */;
+			buildConfigurationList = 49BA86652A6E7D93005AF24E /* Build configuration list for PBXProject "App localization" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				hi,
+				"gu-IN",
 			);
 			mainGroup = 49BA86612A6E7D93005AF24E;
 			productRefGroup = 49BA866B2A6E7D93005AF24E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49BA86692A6E7D93005AF24E /* App localizatio */,
+				49BA86692A6E7D93005AF24E /* App localization */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49BA867A2A6E7D94005AF24E /* LaunchScreen.storyboard in Resources */,
+				491A5DC32A6FC6480005539D /* Localizable.strings in Resources */,
 				49BA86772A6E7D94005AF24E /* Assets.xcassets in Resources */,
 				49BA86752A6E7D93005AF24E /* Main.storyboard in Resources */,
 			);
@@ -147,10 +160,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		491A5DBE2A6FC52D0005539D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491A5DBD2A6FC52D0005539D /* en */,
+				491A5DBF2A6FC5300005539D /* hi */,
+				491A5DC22A6FC57D0005539D /* gu-IN */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		49BA86732A6E7D93005AF24E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				49BA86742A6E7D93005AF24E /* Base */,
+				491A5DB72A6FC0EC0005539D /* en */,
+				491A5DB82A6FC12D0005539D /* hi */,
+				491A5DC02A6FC57D0005539D /* gu-IN */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +185,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				49BA86792A6E7D94005AF24E /* Base */,
+				491A5DB92A6FC12D0005539D /* hi */,
+				491A5DC12A6FC57D0005539D /* gu-IN */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +198,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -299,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jenis.App-localizatio";
+				PRODUCT_BUNDLE_IDENTIFIER = "jenis.App-localization";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -326,7 +356,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jenis.App-localizatio";
+				PRODUCT_BUNDLE_IDENTIFIER = "jenis.App-localization";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49BA86652A6E7D93005AF24E /* Build configuration list for PBXProject "App localizatio" */ = {
+		49BA86652A6E7D93005AF24E /* Build configuration list for PBXProject "App localization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49BA867C2A6E7D94005AF24E /* Debug */,
@@ -346,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49BA867E2A6E7D94005AF24E /* Build configuration list for PBXNativeTarget "App localizatio" */ = {
+		49BA867E2A6E7D94005AF24E /* Build configuration list for PBXNativeTarget "App localization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49BA867F2A6E7D94005AF24E /* Debug */,
